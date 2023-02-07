@@ -1,0 +1,431 @@
+html{scroll-behavior: smooth;}
+
+body {
+    margin: 0;
+    background: #0E1213;
+    font-family: 'Commissioner';
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+
+}
+
+header::after{
+
+}
+
+/* hello*/
+
+.logo{
+    margin-top: 41px;
+    position: relative;
+    left: -95px;
+    float: left;
+}
+
+nav ul {
+    height: 46px;
+    color: #FFD2FC;
+    float: right;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    list-style: none;
+    
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+
+
+nav li:hover{
+    color:white;
+    cursor: pointer;
+}
+
+hr {
+    height: 2px;
+    background-color: #FFD2FC;
+}
+
+.Hero{
+
+    margin: 0;
+    display:flex;
+    padding: 115px 102px;
+    flex-direction: row;
+    gap: 500px;
+}
+
+h1{
+    color: #FFD2FC;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.HeroContainer{
+
+   width: 589px;
+
+}
+
+.paragraph{
+
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+h2{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+}
+
+.contactContainer{
+    
+    flex-direction: row;
+    height: 500px; 
+}
+
+.socialPages{
+    font-size: 48px;
+    color: #FFD2FC;
+    font-weight: 700;
+    margin-left: 102px;
+}
+
+.instaLinked{
+    margin-left: 18px;
+    margin-top: 30px;
+}
+
+.emailMe{
+
+    position: relative;
+    top: -120px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    text-decoration: underline 5px;
+    text-underline-offset: 10px;
+   
+}
+
+
+.emailMe text:hover{
+    color:#FFD2FC;
+    cursor: pointer;
+    text-decoration: underline 5px;
+    text-decoration-color: #FFD2FC;
+}
+
+.arrow{
+    position: relative;
+    top: 15px;
+}
+
+.footerNav ul{
+    margin-right: 102px;
+    flex-direction: column;
+    float:right;
+    font-size: 40px;
+    color: #FFD2FC;
+    font-weight: 700;
+    list-style: none;
+    position: relative;
+    bottom: 310px;
+    
+    
+}
+
+.footerNav li{
+    margin: 15px 0px;
+}
+
+.toolsBG{
+    display:flex;
+    
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 129px;
+    background-color: #FFD2FC;
+}
+
+.aboutMe{
+    height: 1000px;
+    padding: 22px 208px;
+}
+
+.aboutMeContainer{
+    display:flex;
+    flex-direction: row;
+    gap: 300px;
+    padding-top: 42px;
+}
+
+.nickPic{
+    height: 750px;
+}
+
+.rightside-text{
+    
+    width:535px;
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.learnMoreButton:hover{
+    background-color: #757780;
+    cursor: pointer;
+}
+
+
+h3{
+    font-weight: 800;
+    font-size: 64px;
+    color:#FFFFFF;
+    text-align: center;
+    margin: 0px;
+}
+
+.aboutMe ul{
+    list-style-position: outside;
+    padding: 0px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.centralFl{
+    color:#FFD2FC;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.centralFlContainer{
+    padding-bottom: 10px;
+}
+
+
+.skills{
+    
+    color:#FFD2FC;
+    font-weight: 800;
+}
+
+.myResume{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color:#FFFFFF;
+    font-size: 32px;
+    font-weight: 800;
+    
+}
+
+
+.arrowImage{
+    height:45px;
+    position: absolute;
+}
+
+
+
+.myProjectsParent{
+
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 1300px;
+}
+
+h4{
+    font-weight: 800;
+    font-size: 64px;
+    color:#FFFFFF;
+    text-align: center;
+    margin: 0px;
+}
+
+
+.caseStudiesContainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inHarmony{
+    color:#FFD2FC;
+    font-weight: 800;
+    font-size: 34px;
+    padding-bottom: 15px;
+
+}
+
+
+.caseStudy1{
+    display:flex;
+    flex-direction: row;
+    width:1570px;
+    gap: 100px;
+    color:#FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+
+.rightsideText{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    width: 500px;
+}
+
+.caseStudyHeader{
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.learnMoreButton{
+    width: 185px;
+    height: 48px;
+    align-self: center;
+    margin-top: 34px;
+    background: #FFD2FC;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    color:#0E1213;
+}
+
+.caseStudy2{
+    width: 1570px;
+    padding-top: 50px;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+}
+
+
+.caseStudy2Header{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+    color:#FFFFFF;
+    padding-right: 75px;
+}
+
+.framesJpg{
+    padding-top: 30px;
+    width:900px;
+    
+}
+
+.leftSideText{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    width: 500px;
+    color:#FFFFFF;
+    font-size: 24px;
+}
+
+.netflixMobile{
+    color:#FFD2FC;
+    font-weight: 800;
+    font-size: 34px;
+    padding-bottom: 15px;
+}
+
+.viewMore{
+    align-self: center;
+    text-decoration: underline;
+    color:#FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.viewMore:hover{
+    color: #FFD2FC;
+    cursor: pointer;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+nav a:hover{
+    text-decoration: none;
+}
+
+a:hover{
+    color:#FFD2FC;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #FFD2FC;
+   
+}
+
+.footerNav li:hover{
+    cursor: pointer;
+    color:white;
+}
+
+
+.fade{
+    opacity: 0;
+    transition: opacity 800ms ease-in;
+
+}
+.fade.appear{
+    opacity: 1;
+}
+.from-left{
+    transform: translateX(-50%);
+}
+.from-right{
+    transform: translateX(50%);
+}
+.from-left,
+.from-right{
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+    opacity: 0;
+}
+.from-left.appear,
+.from-right.appear{
+    transform: translateX(0);
+    opacity: 1;
+}
+
