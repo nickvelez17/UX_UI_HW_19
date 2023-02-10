@@ -1,6 +1,7 @@
 html{
     scroll-behavior: smooth;
     height: 3600px;
+   
 
 }
 
@@ -9,6 +10,7 @@ body {
     background: #0E1213;
     font-family: 'Commissioner';
     overflow-x: hidden;
+    
 }
 
 .container {
@@ -74,7 +76,7 @@ hr {
 
 h1{
     color: #FFD2FC;
-    font-size: 48px;
+    font-size: 60px;
     font-weight: 800;
     margin: 0px;
     padding-bottom: 15px;
@@ -162,6 +164,20 @@ h2{
 .footerNav li{
     margin: 15px 0px;
 }
+
+.NVLogo{
+  position: relative;
+  right: -155px;
+  top: -90px;
+   margin: auto;
+   font-family: 'Faster One', cursive;
+
+    color:#FFD2FC;
+    font-size: 64px;
+  align-items: center;
+   text-align: center;
+}
+
 
 .toolsBG{
     display:flex;
@@ -388,6 +404,16 @@ a{
     text-decoration: none;
     color:white;
     
+}
+
+.footerNav a{
+    text-decoration: none !important;
+    color:#FFD2FC;
+}
+
+.footerNav a:hover{
+    color:#FFFFFF;
+
 }
 
 nav a:hover{
