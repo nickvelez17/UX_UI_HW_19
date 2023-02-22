@@ -276,16 +276,14 @@ h3{
     position: absolute;
 }
 
-
-
 .myProjectsParent{
-
+    height: 1900px;
     padding-left: 200px;
     padding-right: 200px;
     display: flex;
     flex-direction: column;
     gap: 50px;
-    height: 1900px;
+    
 }
 
 h4{
@@ -370,6 +368,8 @@ h4{
     flex-direction: row-reverse;
     gap: 100px;
 }
+
+
 
 
 .caseStudy2Header{
