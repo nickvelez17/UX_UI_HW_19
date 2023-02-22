@@ -212,7 +212,14 @@ h2{
 .learnMoreButton:hover{
     background-color: #757780;
     cursor: pointer;
+    text-decoration: none;
 }
+
+.learnMoreButton:hover a{
+    
+    text-decoration: none;
+}
+
 
 
 h3{
@@ -251,11 +258,17 @@ h3{
     display: flex;
     justify-content: center;
     text-decoration: underline;
+    text-decoration-color: #FFFFFF;
     color:#FFFFFF;
     font-size: 32px;
     font-weight: 800;
     
 }
+
+.resumeHover{
+    text-decoration-color: #FFD2FC;
+}
+
 
 
 .arrowImage{
@@ -272,7 +285,7 @@ h3{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    height: 1300px;
+    height: 1900px;
 }
 
 h4{
@@ -298,6 +311,14 @@ h4{
     padding-bottom: 15px;
 
 }
+
+.caseStudy1 a{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
 
 
 .caseStudy1{
@@ -338,6 +359,7 @@ h4{
     font-weight: 700;
     font-size: 26px;
     color:#0E1213;
+    text-decoration: none;
 }
 
 .caseStudy2{
@@ -380,6 +402,34 @@ h4{
     padding-bottom: 15px;
 }
 
+.caseStudy3{
+    display:flex;
+    flex-direction: row;
+    width:1570px;
+    gap: 100px;
+    color:#FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.BWpng{
+    
+    width:864px;
+    
+}
+
+.caseStudy3 .rightsideText{
+    
+    padding-top: 80px;
+    width: 500px;
+}
+
+
+
+
+
+
 .viewMore{
     align-self: center;
     text-decoration: underline;
@@ -419,7 +469,7 @@ nav a:hover{
 a:hover{
     color:#FFD2FC;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-color: #FFD2FC;
    
 }
